@@ -1,17 +1,64 @@
-* {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
+/* Estilo da barra lateral */
+.sidebar {
+  width: 300px;
+  background-color: #fff;
+  border-left: 1px solid #dbdbdb;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
 }
 
-p {
-  height: 7vh;
+/* Estilo do perfil */
+.sidebar-profile {
   display: flex;
   align-items: center;
-  padding: 20px;
-  display: inline-block;
+  margin-bottom: 20px;
 }
 
-nav{
-    background-color: aqua;
+.sidebar-profile img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.sidebar-profile .username {
+  font-weight: bold;
+  font-size: 16px;
+  color: #262626;
+}
+
+/* Estilo da seção de sugestões */
+.sidebar-suggestions h4 {
+  font-weight: bold;
+  color: #262626;
+  margin-bottom: 10px;
+}
+
+.suggestion {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.suggestion img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.suggestion .username {
+  font-size: 14px;
+  color: #262626;
+  margin-right: 10px;
+}
+
+.suggestion .follow {
+  font-size: 14px;
+  color: #0095f6;
+  cursor: pointer;
+}
+
+.suggestion .follow:hover {
+  text-decoration: underline;
 }
